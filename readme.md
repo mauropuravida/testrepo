@@ -1,14 +1,3 @@
-# volume-meter-test
-Renders the dynamic range of a [`MediaStream`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream) waveform slice as a percentage in a [`requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window.requestAnimationFrame) callback.
-
-[![npm](http://img.shields.io/npm/v/volume-meter.svg?style=flat-square)](http://www.npmjs.org/volume-meter)
-
-## Why
-Not a particularly complicated task, but it requires more code than you might expect. Also being able to control how the output is tweened (in and out independently!) allows you to get a custom look and feel pretty easily 😎
-
-## How
-[Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)'s [`AnalyserNode#getByteTimeDomainData()`](https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode.getByteTimeDomainData)
-
 ## Example
 ```javascript
 var volumemeter = require('volume-meter')

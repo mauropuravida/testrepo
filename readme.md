@@ -1,4 +1,4 @@
-# volume-meter
+# volume-meter-test
 Renders the dynamic range of a [`MediaStream`](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream) waveform slice as a percentage in a [`requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window.requestAnimationFrame) callback.
 
 [![npm](http://img.shields.io/npm/v/volume-meter.svg?style=flat-square)](http://www.npmjs.org/volume-meter)
